@@ -1,0 +1,24 @@
+pkgbase = alternate-recorder-git
+	pkgdesc = Concatenate recordings from multiple recorder together.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.r0.g4c4209c22067ec422882a80eaad4569ca76a5b7b
+	pkgrel = 1
+	url = https://github.com/themartiancompany/alternate-recorder
+	arch = any
+	groups = hip
+	groups = hip-git
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	makedepends = curl
+	makedepends = jq
+	depends = media-tools
+	optdepends = remote-recorder: for recording from another device
+	optdepends = android-recorder: for recording from this device screen.
+	optdepends = android-camera-recorder: for recording from this device camera
+	optdepends = android-remote-camera-recorder: for recording from the camera of another device
+	provides = alternate-recorder=0.0.0.0.0.0.0.0.0.0.0.0.0.1.r0.g4c4209c22067ec422882a80eaad4569ca76a5b7b
+	conflicts = alternate-recorder
+	source = alternate-recorder.tar.gz::https://github.com/themartiancompany/alternate-recorder/archive/refs/heads/master.tar.gz
+	sha256sums = SKIP
+
+pkgname = alternate-recorder-git
